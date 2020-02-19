@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 
 public class NegativeBalanceException extends Exception{
 
-	private BigDecimal negativeBalance = new BigDecimal("0"); //instance variable
+	private BigDecimal negativeBalance = new BigDecimal("0"); //instance variable double
 	private static NumberFormat money = NumberFormat.getCurrencyInstance();
 	
 	public NegativeBalanceException() { //default constructor
