@@ -1,5 +1,15 @@
+/*
+ * @author Keegan Bean
+ * @author Mark Baldwin
+ * @author Cyndi Rader
+ */
 import java.math.BigDecimal; //EC
 
+/*
+ * ATM class
+ * Class that implements handleTransactions
+ * Outputs based off specifications for the NegativeBalanceExceptions
+ */
 public class ATM {
 
 	private BankAccount bankAccount = new BankAccount(new BigDecimal("500")); //instance variable
