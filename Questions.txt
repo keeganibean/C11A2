@@ -1,0 +1,7 @@
+1. BigDecimal presents numbers in an exact way. Doubles have a limited precision. Including this into java allows us to not have any numbers drop off and present dollar amounts properly.
+2. 
+a. Use try catch statements to catch the exceptions you're using.
+b. Throw exceptions with messages to help the user and you to know exactly what's happening.
+c. Dont log and then throw because this could result in you catching an exception then logging and rethrowing
+Citing of the resource I used
+https://dzone.com/articles/9-best-practices-to-handle-exceptions-in-java
