@@ -3,3 +3,44 @@ Author: keeganibean <keeganibean@gmail.com>
 Date:   Tue Feb 18 16:43:49 2020 -0700
 
     Initial commit
+commit 5986795db7689648cfbc7b05c3ce5e975d5b0ed1
+Author: keeganibean <keeganibean@gmail.com>
+Date:   Tue Feb 18 18:24:02 2020 -0700
+
+    Final commit added tweaks and authors/comments
+
+commit 8d3d034e48509c2b4467c6cbe2dd0649e9b02c55
+Author: keeganibean <keeganibean@gmail.com>
+Date:   Tue Feb 18 18:09:56 2020 -0700
+
+    Added ATM class and made other small edits
+
+commit 240222cbe0988d7f4fc8d029328572b54f9cea92
+Author: keeganibean <keeganibean@gmail.com>
+Date:   Tue Feb 18 17:22:40 2020 -0700
+
+    used BigDecimal after reading provided articles and completed BankAccount class
+
+commit dda9c8d762056974d69fa35df328b93b815b37f9
+Author: keeganibean <keeganibean@gmail.com>
+Date:   Tue Feb 18 17:07:23 2020 -0700
+
+    finished NegativeBalanceExceptionClass
+
+commit e29ed93ed7deb8816072b91554de0bcb275066dd
+Author: keeganibean <keeganibean@gmail.com>
+Date:   Tue Feb 18 16:46:16 2020 -0700
+
+    second commit
+
+commit fbfe28f987cb8a14638ca731803984a2c50e2adf
+Author: keeganibean <keeganibean@gmail.com>
+Date:   Tue Feb 18 16:43:49 2020 -0700
+
+    Initial commit
+
+commit 3664aa80af12c8fc824e8bbae13db0e8aa7bdb17
+Author: keeganibean <56174677+keeganibean@users.noreply.github.com>
+Date:   Tue Feb 18 16:18:17 2020 -0700
+
+    Initial commit
