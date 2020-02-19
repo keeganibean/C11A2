@@ -1,4 +1,4 @@
-import java.math.BigDecimal;
+import java.math.BigDecimal; //EC
 
 public class BankAccount {
 	private BigDecimal balance; //instance variable type double
@@ -13,14 +13,18 @@ public class BankAccount {
 			throw new NegativeBalanceException(balance.subtract(amount)); //if it is greater throw exception
 		} else {
 			balance.subtract(amount); //updates the balance
+			BigDecimal newBalance = balance.subtract(amount); //updates amount
+			System.out.println("Your new balance is: " + newBalance); //outputs when no exception is thrown to let them know their new balance
 		}
 	}
 	
 	public void quickWithdraw(BigDecimal amount) throws NegativeBalanceException { //second instance
 		if (amount.compareTo(balance) == 1) { //if amount is greater than balance
-			throw new NegativeBalanceException(); //
+			throw new NegativeBalanceException(); //throws with no parameters
 		} else {
 			balance.subtract(amount); //updates amount
+			BigDecimal newBalance = balance.subtract(amount); //updates amount
+			System.out.println("Your new balance is: " + newBalance); //outputs when no exception is thrown to let them know their new balance
 		}
 	}
 }
